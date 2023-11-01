@@ -7,7 +7,11 @@ import SwiftUI
 
 struct ___VARIABLE_productName___View: View {
     
-    @EnvironmentObject private var presenter: ___VARIABLE_productName___Presenter
+    @ObservedObject private var presenter: ___VARIABLE_productName___Presenter
+    
+    init(presenter: ___VARIABLE_productName___Presenter) {
+        self.presenter = presenter
+    }
     
     var body: some View {
         VStack {
