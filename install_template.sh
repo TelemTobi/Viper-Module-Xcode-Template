@@ -10,7 +10,7 @@ echo "${PURPLE}Removing existing template folder${NC}"
 sudo rm -rf /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates/Modules/Viper.xctemplate
 
 echo "${PURPLE}Installing..${NC}"
-sudo mv /tmp/xcode_template/Viper.xctemplate "/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/Modules/"
+sudo mv /tmp/xcode_template/Modules "/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/Modules/"
 
 echo "${PURPLE}Cleaning up${NC}"
 rm -rf /tmp/xcode_template
