@@ -28,5 +28,5 @@ struct ___VARIABLE_productName___View: View {
     let interactor = ___VARIABLE_productName___Interactor(interactable: AppController.Preview.interactor)
     let presenter = ___VARIABLE_productName___Presenter(interactor: interactor, router: nil)
 
-    return ___VARIABLE_productName___View().environmentObject(presenter)
+    return ___VARIABLE_productName___View(presenter: presenter)
 }
