@@ -1,10 +1,19 @@
 <p align="center">
-  <img height="180" src="Viper.xctemplate/TemplateIcon.png">
+  <img height="100" src="Modules/Viper.xctemplate/TemplateIcon.png">
 </p>
 
 Xcode custom template for easily creating a Viper architecture module.</br>
 You'll get useful boilerplate out of the box, with the module name placed in the relevant classes' and protocols' names.</br>
-The module has two types, based on the UI framework your'e using. Select the one that fits your project.
+The module has two types, based on the UI framework your'e using. Select the one that fits your project.</br></br>
+See [SwiftUI Viper Template](https://github.com/TelemTobi/SwiftUI-Viper-Template.git) or [UIKit Viper Template](https://github.com/TelemTobi/SwiftUI-Viper-Template.git) for the complete architecture.
+
+<br/>
+
+<p align="center">
+  <img height="220" src="Resources/screenshot1.png">
+  <img height="220" src="Resources/screenshot2.png">
+  <img height="220" src="Resources/screenshot3.png">
+</p>
 
 <br/>
 
